@@ -18,8 +18,10 @@ This is a real-time web-based chat application that allows users to join chat ro
 
 - Frontend:
   HTML, CSS, JavaScript
-  WebSockets API
-  Local Storage
-  DOM Manipulation
 - Backend:
-  Node.js, WebSockets (ws library)
+  Node.js, WebSockets 
+
+## Live Link
+
+- Check out the live demo of this project: 
+  https://madhuri-tech9.github.io/chat-application/
