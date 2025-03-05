@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engaging Chat Application</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <!-- Login Screen -->
+    <div class="login">
+        <h2>Welcome to ChatVerse!</h2>
+        <!-- Error message for username conflicts (hidden initially) -->
+        <div id="loginError" class="error-message" style="display:none;"></div> 
+        <input type="text" id="usernameInput" placeholder="Enter your username" />
+        <button id="startBtn">Start Chatting</button> 
+    </div>
+
+    <!-- Chat Screen (Initially hidden) -->
+    <div class="chat-container" style="display:none;">
+        
+        <!-- Welcome Message (Displayed in the top-right corner) -->
+        <div id="welcomeMessage"></div>
+
+        <!-- Room Management Section -->
+        <div class="room-management">
+            <h3>Manage Chat Rooms</h3>
+            <!-- Input to create a new chat room -->
+            <input type="text" id="newRoomInput" placeholder="Create a new room..." />
+            <button id="createRoomBtn">Create Room</button> 
+            <!-- Dropdown to select existing chat rooms -->
+            <select id="roomSelect">
+                <option value="General">General</option>
+                <option value="Sports">Sports</option>
+                <option value="Music">Music</option>
+            </select>
+            <button id="joinRoomBtn">Join Room</button> 
+
+            <!-- Leave Room Button (Allows users to leave the current room) -->
+            <button id="leaveRoomBtn" class="leave-room-btn">Leave Room</button>
+        </div>
+
+        <!-- Displays the current room name -->
+        <div id="currentRoom" class="current-room">
+            Room: Not Joined
+        </div>
+
+        <div class="chat-content">
+            <!-- Chat Messages Section -->
+            <div class="chat-room">
+                <div id="chatMessages" class="chat-messages"></div> 
+                <!-- Input and Send Message Section -->
+                <div class="chat-input">
+                    <input type="text" id="messageInput" placeholder="Type a message..." />
+                    <button id="sendMessageBtn">Send</button> 
+                </div>
+            </div>
+
+            <!-- Online Users Section -->
+            <div class="online-users">
+                <h4>Active Users</h4>
+                <ul id="usersList"></ul> 
+        </div>
+    </div>
+
+    <!-- Notification Sound for New Messages -->
+    <audio id="notificationSound" preload="auto" aria-label="Notification sound for new messages">
+        <source src="./assets/mixkit-correct-answer-tone-2870.wav" type="audio/wav">
+    </audio>
+
+    <!-- JavaScript File for Chat Functionality -->
+    <script src="script.js"></script>
+</body>
+</html>
