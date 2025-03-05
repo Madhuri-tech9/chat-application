@@ -38,12 +38,14 @@ Before running the app, make sure you have the following installed:
   - Clone the repository to your local machine using the following command:
     git clone https://github.com/Madhuri-tech9/chat-application.git
     cd your-repository
-2. **Install dependencies**: Run this command to install the required dependencies:
+2. **Navigate into the Project Folder**:After cloning, move to the project directory.
+  - cd chat-application
+3. **Install dependencies**: Run this command to install the required dependencies:
   - npm install
-3. **Start the server**: To start the application, run the following command:
+4. **Start the server**: To start the application, run the following command:
   - node server.js
-4. **Access the app in the browser**: Once the server is running, open your browser and go to:
-  - http://localhost:3000
+5. **Access the app in the browser**: Once the server is running, open your browser and go to:
+    http://localhost:3000
   - Your chat application should now be live and accessible in the browser.
 
 
