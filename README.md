@@ -43,7 +43,7 @@ Before running the app, make sure you have the following installed:
 4.  **Open the project folder in VS Code**:
   - Go to the public folder and click on index.html to open it.
 5. **Start the Server**:
-  - Open a new terminal in VS Code (or use your system terminal).
+  - Open a new terminal in VS Code.
   - Type the following command to start the Node.js server:
     node server.js
   - This will start your server on port 3000.
