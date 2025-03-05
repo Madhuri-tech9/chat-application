@@ -36,8 +36,7 @@ Before running the app, make sure you have the following installed:
 
 1. **Clone the repository** 
   - Clone the repository to your local machine using the following command:
-    git clone https://github.com/Madhuri-tech9/chat-application.git
-    cd your-repository
+  - git clone https://github.com/Madhuri-tech9/chat-application.git
 2. **Navigate into the Project Folder**:After cloning, move to the project directory.
   - cd chat-application
 3. **Install dependencies**: Run this command to install the required dependencies:
